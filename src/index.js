@@ -1,6 +1,7 @@
 // src/index.js
-document.addEventListener("DOMContentLoaded", function(event) {
-    const element = document.createElement('h1')
-    element.innerHTML = "Hello World"
-    document.body.appendChild(element)
-  })
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+ReactDOM.render(
+  <App />, document.getElementById('root'));
